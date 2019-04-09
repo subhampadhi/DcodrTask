@@ -15,6 +15,37 @@
 		0FEDE140225CBC2A008CC96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE13E225CBC2A008CC96B /* LaunchScreen.storyboard */; };
 		0FEDE14B225CBC2A008CC96B /* DcodrTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE14A225CBC2A008CC96B /* DcodrTaskTests.swift */; };
 		0FEDE156225CBC2A008CC96B /* DcodrTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE155225CBC2A008CC96B /* DcodrTaskUITests.swift */; };
+		0FEDE164225CCC12008CC96B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE163225CCC12008CC96B /* TabBarController.swift */; };
+		0FEDE166225CCCB1008CC96B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE165225CCCB1008CC96B /* ChatVC.swift */; };
+		0FEDE168225CCD4A008CC96B /* QuestionAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE167225CCD4A008CC96B /* QuestionAnswerVC.swift */; };
+		0FEDE16A225CCDC5008CC96B /* ThreadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE169225CCDC5008CC96B /* ThreadsVC.swift */; };
+		0FEDE16C225CCEC2008CC96B /* CodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE16B225CCEC2008CC96B /* CodeVC.swift */; };
+		0FEDE171225CD41F008CC96B /* MessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE170225CD41F008CC96B /* MessageResponse.swift */; };
+		0FEDE173225CD505008CC96B /* CodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE172225CD505008CC96B /* CodeResponse.swift */; };
+		0FEDE176225CDABC008CC96B /* ChatScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE175225CDABC008CC96B /* ChatScreenVC.swift */; };
+		0FEDE178225CDAFF008CC96B /* ChatScreenCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE177225CDAFF008CC96B /* ChatScreenCells.swift */; };
+		0FEDE189225CDB54008CC96B /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17A225CDB54008CC96B /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		0FEDE18A225CDB54008CC96B /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17B225CDB54008CC96B /* IBMPlexSans-Medium.ttf */; };
+		0FEDE18B225CDB54008CC96B /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17C225CDB54008CC96B /* IBMPlexSans-SemiBold.ttf */; };
+		0FEDE18C225CDB54008CC96B /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17D225CDB54008CC96B /* IBMPlexSans-MediumItalic.ttf */; };
+		0FEDE18D225CDB54008CC96B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17E225CDB54008CC96B /* OFL.txt */; };
+		0FEDE18E225CDB54008CC96B /* IBMPlexSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE17F225CDB54008CC96B /* IBMPlexSans-LightItalic.ttf */; };
+		0FEDE18F225CDB54008CC96B /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE180225CDB54008CC96B /* IBMPlexSans-ExtraLight.ttf */; };
+		0FEDE190225CDB54008CC96B /* IBMPlexSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE181225CDB54008CC96B /* IBMPlexSans-Thin.ttf */; };
+		0FEDE191225CDB54008CC96B /* IBMPlexSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE182225CDB54008CC96B /* IBMPlexSans-ThinItalic.ttf */; };
+		0FEDE192225CDB54008CC96B /* IBMPlexSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE183225CDB54008CC96B /* IBMPlexSans-BoldItalic.ttf */; };
+		0FEDE193225CDB54008CC96B /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE184225CDB54008CC96B /* IBMPlexSans-Light.ttf */; };
+		0FEDE194225CDB54008CC96B /* IBMPlexSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE185225CDB54008CC96B /* IBMPlexSans-Italic.ttf */; };
+		0FEDE195225CDB54008CC96B /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE186225CDB54008CC96B /* IBMPlexSans-Regular.ttf */; };
+		0FEDE196225CDB54008CC96B /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE187225CDB54008CC96B /* IBMPlexSans-ExtraLightItalic.ttf */; };
+		0FEDE197225CDB54008CC96B /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEDE188225CDB54008CC96B /* IBMPlexSans-Bold.ttf */; };
+		0FEDE199225CE88E008CC96B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE198225CE88E008CC96B /* Utils.swift */; };
+		0FEDE19B225CF145008CC96B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE19A225CF145008CC96B /* ChatViewModel.swift */; };
+		0FEDE19E225D1771008CC96B /* CodeCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE19D225D1771008CC96B /* CodeCells.swift */; };
+		0FEDE1A0225D42F2008CC96B /* CodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDE19F225D42F2008CC96B /* CodeViewModel.swift */; };
+		1BD52F7CD857830DC5352BA1 /* Pods_DcodrTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE55BE91F3ED929133C90057 /* Pods_DcodrTask.framework */; };
+		2579C67CD3DB7A699E53941A /* Pods_DcodrTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21144B757C84B01F243843F4 /* Pods_DcodrTaskUITests.framework */; };
+		87D26FBEFE4ED82EB7AB9E4E /* Pods_DcodrTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489EEC840C3A52A078E181BF /* Pods_DcodrTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +80,43 @@
 		0FEDE151225CBC2A008CC96B /* DcodrTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DcodrTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FEDE155225CBC2A008CC96B /* DcodrTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcodrTaskUITests.swift; sourceTree = "<group>"; };
 		0FEDE157225CBC2A008CC96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEDE163225CCC12008CC96B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0FEDE165225CCCB1008CC96B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		0FEDE167225CCD4A008CC96B /* QuestionAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerVC.swift; sourceTree = "<group>"; };
+		0FEDE169225CCDC5008CC96B /* ThreadsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsVC.swift; sourceTree = "<group>"; };
+		0FEDE16B225CCEC2008CC96B /* CodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC.swift; sourceTree = "<group>"; };
+		0FEDE170225CD41F008CC96B /* MessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageResponse.swift; sourceTree = "<group>"; };
+		0FEDE172225CD505008CC96B /* CodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeResponse.swift; sourceTree = "<group>"; };
+		0FEDE175225CDABC008CC96B /* ChatScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenVC.swift; sourceTree = "<group>"; };
+		0FEDE177225CDAFF008CC96B /* ChatScreenCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenCells.swift; sourceTree = "<group>"; };
+		0FEDE17A225CDB54008CC96B /* IBMPlexSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE17B225CDB54008CC96B /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		0FEDE17C225CDB54008CC96B /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		0FEDE17D225CDB54008CC96B /* IBMPlexSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE17E225CDB54008CC96B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		0FEDE17F225CDB54008CC96B /* IBMPlexSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE180225CDB54008CC96B /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0FEDE181225CDB54008CC96B /* IBMPlexSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Thin.ttf"; sourceTree = "<group>"; };
+		0FEDE182225CDB54008CC96B /* IBMPlexSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE183225CDB54008CC96B /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE184225CDB54008CC96B /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		0FEDE185225CDB54008CC96B /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
+		0FEDE186225CDB54008CC96B /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		0FEDE187225CDB54008CC96B /* IBMPlexSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		0FEDE188225CDB54008CC96B /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		0FEDE198225CE88E008CC96B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0FEDE19A225CF145008CC96B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		0FEDE19D225D1771008CC96B /* CodeCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCells.swift; sourceTree = "<group>"; };
+		0FEDE19F225D42F2008CC96B /* CodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewModel.swift; sourceTree = "<group>"; };
+		1A95F76E0452965DDED91170 /* Pods-DcodrTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTaskUITests/Pods-DcodrTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21144B757C84B01F243843F4 /* Pods_DcodrTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcodrTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F6E8C6701435DBB2A2316D /* Pods-DcodrTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTaskTests/Pods-DcodrTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		489EEC840C3A52A078E181BF /* Pods_DcodrTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcodrTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554DE199BA907C07FE554690 /* Pods-DcodrTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTaskUITests/Pods-DcodrTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		754CC218F93DF5B358B662F4 /* Pods-DcodrTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTask/Pods-DcodrTask.release.xcconfig"; sourceTree = "<group>"; };
+		BF5236D78EB7191FE85FB7F2 /* Pods-DcodrTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTaskTests/Pods-DcodrTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F76D0F4C376AFC93C5D5B120 /* Pods-DcodrTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcodrTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DcodrTask/Pods-DcodrTask.debug.xcconfig"; sourceTree = "<group>"; };
+		FE55BE91F3ED929133C90057 /* Pods_DcodrTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcodrTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD52F7CD857830DC5352BA1 /* Pods_DcodrTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D26FBEFE4ED82EB7AB9E4E /* Pods_DcodrTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2579C67CD3DB7A699E53941A /* Pods_DcodrTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +154,8 @@
 				0FEDE149225CBC2A008CC96B /* DcodrTaskTests */,
 				0FEDE154225CBC2A008CC96B /* DcodrTaskUITests */,
 				0FEDE130225CBC28008CC96B /* Products */,
+				C3B8D8570A17DB2B2165A178 /* Pods */,
+				4FF2677A9D478DD8155126EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +172,11 @@
 		0FEDE131225CBC28008CC96B /* DcodrTask */ = {
 			isa = PBXGroup;
 			children = (
+				0FEDE179225CDB54008CC96B /* IBM_Plex_Sans */,
+				0FEDE16F225CD390008CC96B /* View */,
+				0FEDE16E225CD376008CC96B /* ViewModel */,
+				0FEDE16D225CD356008CC96B /* Model */,
+				0FEDE163225CCC12008CC96B /* TabBarController.swift */,
 				0FEDE132225CBC28008CC96B /* AppDelegate.swift */,
 				0FEDE134225CBC28008CC96B /* ViewController.swift */,
 				0FEDE136225CBC28008CC96B /* Main.storyboard */,
@@ -106,6 +184,7 @@
 				0FEDE13E225CBC2A008CC96B /* LaunchScreen.storyboard */,
 				0FEDE141225CBC2A008CC96B /* Info.plist */,
 				0FEDE139225CBC29008CC96B /* DcodrTask.xcdatamodeld */,
+				0FEDE198225CE88E008CC96B /* Utils.swift */,
 			);
 			path = DcodrTask;
 			sourceTree = "<group>";
@@ -128,6 +207,99 @@
 			path = DcodrTaskUITests;
 			sourceTree = "<group>";
 		};
+		0FEDE16D225CD356008CC96B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE170225CD41F008CC96B /* MessageResponse.swift */,
+				0FEDE172225CD505008CC96B /* CodeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FEDE16E225CD376008CC96B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE19A225CF145008CC96B /* ChatViewModel.swift */,
+				0FEDE19F225D42F2008CC96B /* CodeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FEDE16F225CD390008CC96B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE19C225D13F6008CC96B /* CodeVC */,
+				0FEDE174225CDA98008CC96B /* ChatScreenVC */,
+				0FEDE167225CCD4A008CC96B /* QuestionAnswerVC.swift */,
+				0FEDE169225CCDC5008CC96B /* ThreadsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FEDE174225CDA98008CC96B /* ChatScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE165225CCCB1008CC96B /* ChatVC.swift */,
+				0FEDE175225CDABC008CC96B /* ChatScreenVC.swift */,
+				0FEDE177225CDAFF008CC96B /* ChatScreenCells.swift */,
+			);
+			path = ChatScreenVC;
+			sourceTree = "<group>";
+		};
+		0FEDE179225CDB54008CC96B /* IBM_Plex_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE17A225CDB54008CC96B /* IBMPlexSans-SemiBoldItalic.ttf */,
+				0FEDE17B225CDB54008CC96B /* IBMPlexSans-Medium.ttf */,
+				0FEDE17C225CDB54008CC96B /* IBMPlexSans-SemiBold.ttf */,
+				0FEDE17D225CDB54008CC96B /* IBMPlexSans-MediumItalic.ttf */,
+				0FEDE17E225CDB54008CC96B /* OFL.txt */,
+				0FEDE17F225CDB54008CC96B /* IBMPlexSans-LightItalic.ttf */,
+				0FEDE180225CDB54008CC96B /* IBMPlexSans-ExtraLight.ttf */,
+				0FEDE181225CDB54008CC96B /* IBMPlexSans-Thin.ttf */,
+				0FEDE182225CDB54008CC96B /* IBMPlexSans-ThinItalic.ttf */,
+				0FEDE183225CDB54008CC96B /* IBMPlexSans-BoldItalic.ttf */,
+				0FEDE184225CDB54008CC96B /* IBMPlexSans-Light.ttf */,
+				0FEDE185225CDB54008CC96B /* IBMPlexSans-Italic.ttf */,
+				0FEDE186225CDB54008CC96B /* IBMPlexSans-Regular.ttf */,
+				0FEDE187225CDB54008CC96B /* IBMPlexSans-ExtraLightItalic.ttf */,
+				0FEDE188225CDB54008CC96B /* IBMPlexSans-Bold.ttf */,
+			);
+			path = IBM_Plex_Sans;
+			sourceTree = "<group>";
+		};
+		0FEDE19C225D13F6008CC96B /* CodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				0FEDE16B225CCEC2008CC96B /* CodeVC.swift */,
+				0FEDE19D225D1771008CC96B /* CodeCells.swift */,
+			);
+			path = CodeVC;
+			sourceTree = "<group>";
+		};
+		4FF2677A9D478DD8155126EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE55BE91F3ED929133C90057 /* Pods_DcodrTask.framework */,
+				489EEC840C3A52A078E181BF /* Pods_DcodrTaskTests.framework */,
+				21144B757C84B01F243843F4 /* Pods_DcodrTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B8D8570A17DB2B2165A178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76D0F4C376AFC93C5D5B120 /* Pods-DcodrTask.debug.xcconfig */,
+				754CC218F93DF5B358B662F4 /* Pods-DcodrTask.release.xcconfig */,
+				BF5236D78EB7191FE85FB7F2 /* Pods-DcodrTaskTests.debug.xcconfig */,
+				23F6E8C6701435DBB2A2316D /* Pods-DcodrTaskTests.release.xcconfig */,
+				1A95F76E0452965DDED91170 /* Pods-DcodrTaskUITests.debug.xcconfig */,
+				554DE199BA907C07FE554690 /* Pods-DcodrTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEDE15A225CBC2A008CC96B /* Build configuration list for PBXNativeTarget "DcodrTask" */;
 			buildPhases = (
+				010381C023BE10C3AFFA8DD2 /* [CP] Check Pods Manifest.lock */,
 				0FEDE12B225CBC28008CC96B /* Sources */,
 				0FEDE12C225CBC28008CC96B /* Frameworks */,
 				0FEDE12D225CBC28008CC96B /* Resources */,
+				4639D7FD4DB236A31967CD72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEDE15D225CBC2A008CC96B /* Build configuration list for PBXNativeTarget "DcodrTaskTests" */;
 			buildPhases = (
+				031150461AC0BBC9AC7ABDA2 /* [CP] Check Pods Manifest.lock */,
 				0FEDE142225CBC2A008CC96B /* Sources */,
 				0FEDE143225CBC2A008CC96B /* Frameworks */,
 				0FEDE144225CBC2A008CC96B /* Resources */,
@@ -170,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEDE160225CBC2A008CC96B /* Build configuration list for PBXNativeTarget "DcodrTaskUITests" */;
 			buildPhases = (
+				602D803967D2D3DE2C9F8740 /* [CP] Check Pods Manifest.lock */,
 				0FEDE14D225CBC2A008CC96B /* Sources */,
 				0FEDE14E225CBC2A008CC96B /* Frameworks */,
 				0FEDE14F225CBC2A008CC96B /* Resources */,
@@ -232,9 +408,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FEDE193225CDB54008CC96B /* IBMPlexSans-Light.ttf in Resources */,
+				0FEDE190225CDB54008CC96B /* IBMPlexSans-Thin.ttf in Resources */,
+				0FEDE192225CDB54008CC96B /* IBMPlexSans-BoldItalic.ttf in Resources */,
+				0FEDE196225CDB54008CC96B /* IBMPlexSans-ExtraLightItalic.ttf in Resources */,
 				0FEDE140225CBC2A008CC96B /* LaunchScreen.storyboard in Resources */,
+				0FEDE18F225CDB54008CC96B /* IBMPlexSans-ExtraLight.ttf in Resources */,
 				0FEDE13D225CBC2A008CC96B /* Assets.xcassets in Resources */,
+				0FEDE194225CDB54008CC96B /* IBMPlexSans-Italic.ttf in Resources */,
+				0FEDE197225CDB54008CC96B /* IBMPlexSans-Bold.ttf in Resources */,
+				0FEDE189225CDB54008CC96B /* IBMPlexSans-SemiBoldItalic.ttf in Resources */,
+				0FEDE195225CDB54008CC96B /* IBMPlexSans-Regular.ttf in Resources */,
 				0FEDE138225CBC28008CC96B /* Main.storyboard in Resources */,
+				0FEDE191225CDB54008CC96B /* IBMPlexSans-ThinItalic.ttf in Resources */,
+				0FEDE18C225CDB54008CC96B /* IBMPlexSans-MediumItalic.ttf in Resources */,
+				0FEDE18E225CDB54008CC96B /* IBMPlexSans-LightItalic.ttf in Resources */,
+				0FEDE18B225CDB54008CC96B /* IBMPlexSans-SemiBold.ttf in Resources */,
+				0FEDE18D225CDB54008CC96B /* OFL.txt in Resources */,
+				0FEDE18A225CDB54008CC96B /* IBMPlexSans-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +445,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		010381C023BE10C3AFFA8DD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcodrTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		031150461AC0BBC9AC7ABDA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcodrTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4639D7FD4DB236A31967CD72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DcodrTask/Pods-DcodrTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DcodrTask/Pods-DcodrTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602D803967D2D3DE2C9F8740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcodrTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FEDE12B225CBC28008CC96B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FEDE168225CCD4A008CC96B /* QuestionAnswerVC.swift in Sources */,
+				0FEDE16A225CCDC5008CC96B /* ThreadsVC.swift in Sources */,
+				0FEDE19E225D1771008CC96B /* CodeCells.swift in Sources */,
 				0FEDE13B225CBC29008CC96B /* DcodrTask.xcdatamodeld in Sources */,
+				0FEDE16C225CCEC2008CC96B /* CodeVC.swift in Sources */,
+				0FEDE1A0225D42F2008CC96B /* CodeViewModel.swift in Sources */,
+				0FEDE171225CD41F008CC96B /* MessageResponse.swift in Sources */,
+				0FEDE199225CE88E008CC96B /* Utils.swift in Sources */,
+				0FEDE176225CDABC008CC96B /* ChatScreenVC.swift in Sources */,
+				0FEDE164225CCC12008CC96B /* TabBarController.swift in Sources */,
+				0FEDE19B225CF145008CC96B /* ChatViewModel.swift in Sources */,
+				0FEDE178225CDAFF008CC96B /* ChatScreenCells.swift in Sources */,
 				0FEDE135225CBC28008CC96B /* ViewController.swift in Sources */,
 				0FEDE133225CBC28008CC96B /* AppDelegate.swift in Sources */,
+				0FEDE166225CCCB1008CC96B /* ChatVC.swift in Sources */,
+				0FEDE173225CD505008CC96B /* CodeResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +715,7 @@
 		};
 		0FEDE15B225CBC2A008CC96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76D0F4C376AFC93C5D5B120 /* Pods-DcodrTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +734,7 @@
 		};
 		0FEDE15C225CBC2A008CC96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754CC218F93DF5B358B662F4 /* Pods-DcodrTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +753,7 @@
 		};
 		0FEDE15E225CBC2A008CC96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5236D78EB7191FE85FB7F2 /* Pods-DcodrTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +775,7 @@
 		};
 		0FEDE15F225CBC2A008CC96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F6E8C6701435DBB2A2316D /* Pods-DcodrTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +797,7 @@
 		};
 		0FEDE161225CBC2A008CC96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A95F76E0452965DDED91170 /* Pods-DcodrTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +818,7 @@
 		};
 		0FEDE162225CBC2A008CC96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554DE199BA907C07FE554690 /* Pods-DcodrTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

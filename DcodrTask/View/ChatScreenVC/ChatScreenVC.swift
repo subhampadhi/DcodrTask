@@ -141,8 +141,10 @@ class ChatScreenVC: UIViewController, UITextFieldDelegate , UITableViewDelegate 
         
         inputTextField.leadingAnchor.constraint(equalTo: containerView.leadingAnchor , constant: 10).isActive = true
         inputTextField.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
-        inputTextField.trailingAnchor.constraint(equalTo: sendButton.trailingAnchor).isActive = true
+        inputTextField.trailingAnchor.constraint(equalTo: sendButton.trailingAnchor , constant:-3).isActive = true
         inputTextField.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
+        inputTextField.clipsToBounds = true
+        inputTextField.textColor = #colorLiteral(red: 0.862745098, green: 0.862745098, blue: 0.862745098, alpha: 1)
         
         let separatorLineView = UIView()
         separatorLineView.backgroundColor = #colorLiteral(red: 0.862745098, green: 0.862745098, blue: 0.862745098, alpha: 1)

@@ -39,7 +39,7 @@ class SearchResultsCell: UITableViewCell , TagListViewDelegate  {
     var listView: TagListView = {
         let view = TagListView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.alignment = .left
+        view.alignment = .center
         view.paddingX = 15
         view.paddingY = 10
         view.borderColor = #colorLiteral(red: 0.1215686277, green: 0.1294117719, blue: 0.1411764771, alpha: 1)
@@ -170,9 +170,9 @@ class SearchResultsCell: UITableViewCell , TagListViewDelegate  {
         profileNameLabel.leadingAnchor.constraint(equalTo: profileImage.trailingAnchor, constant: 25).isActive = true
         profileNameLabel.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -15).isActive = true
         
-        listView.leadingAnchor.constraint(equalTo: profileImage.trailingAnchor, constant: 25).isActive = true
-        listView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -15).isActive = true
-        listView.topAnchor.constraint(equalTo: profileNameLabel.bottomAnchor, constant: 10).isActive = true
+        listView.leadingAnchor.constraint(equalTo: mainView.leadingAnchor , constant: 5).isActive = true
+        listView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -5).isActive = true
+        listView.topAnchor.constraint(equalTo: profileImage.bottomAnchor, constant: 10).isActive = true
         
         commentsNumberLabel.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -25).isActive = true
         commentsNumberLabel.topAnchor.constraint(equalTo: mainView.topAnchor, constant: 15).isActive = true

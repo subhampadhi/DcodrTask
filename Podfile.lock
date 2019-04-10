@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - TagListView (1.3.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.0)
+  - TagListView (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - TagListView
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  TagListView: 0c7e9c26b9aff858224ee6b155f5fcacd9e27c83
+
+PODFILE CHECKSUM: 2875b3957a34e558f49d368dcb1cf52e98dc6301
+
+COCOAPODS: 1.5.2

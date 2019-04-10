@@ -10,8 +10,7 @@ target 'DcodrTask' do
   # Pods for DcodrTask
   pod 'Kingfisher', '~> 4.0'
   pod 'TagListView', '~> 1.0'
-
-
+  pod 'IQKeyboardManagerSwift'
 
   target 'DcodrTaskTests' do
     inherit! :search_paths
